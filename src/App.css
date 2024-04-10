@@ -1,0 +1,30 @@
+@font-face{
+  font-family: Regular;
+  src:url("../public/Fonts/Mazzard/MazzardM-Regular.ttf")
+}
+@font-face{
+  font-family: Mbold;
+  src:url("../public/Fonts/Mazzard/MazzardM-Bold.ttf")
+}
+@font-face{
+  font-family: Semibold;
+  src:url("../public/Fonts/Mazzard/MazzardM-SemiBold.ttf")
+}
+@font-face{
+  font-family: MMedium;
+  src:url("../public/Fonts/Mazzard/MazzardM-Medium.ttf")
+}
+@font-face{
+  font-family: Exbold;
+  src:url("../public/Fonts/Mazzard/MazzardH-Bold.ttf")
+}
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #1E1E1E;
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+  color: #1E1E1E;
+}

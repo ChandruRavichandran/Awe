@@ -1,0 +1,181 @@
+.contact{
+
+    height: 95svh;
+    border-radius: 30px;
+    background-color: #0A66C2;
+    display: flex;
+justify-content: center;
+color: #ffff;
+    /* background: url("../../public/conimg.svg"); */
+}
+
+.innercontact{
+width: 94.5%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.lastcontact{
+    display: flex;
+    justify-content: flex-end;
+    /* margin-bottom: 50px; */
+    /* border: 1px solid red; */
+}
+.lastcontact div{
+    position: relative;
+    bottom: 50px;
+    /* position: absolute; */
+    /* bottom: 100px; */
+    /* margin-bottom: 50px; */
+}
+.contact12{
+    width:40%;
+    font-family: Regular;
+    padding-top: 40px;
+font-size: 2.0833333333333335vw ;
+line-height:  2.0833333333333335vw;
+}
+.contact13{
+    margin-top: 20px;
+    font-family: Regular;
+    font-size: 2.0833333333333335vw;
+    line-height:  2.0833333333333335vw;
+}
+.contact14{
+    margin-top: 20px;
+    font-family: Mbold;
+    text-transform: uppercase;
+    font-size: 3.125vw;
+   
+}
+.contactimage{
+  width: 100%;
+  /* height: 72vh; */
+    position: absolute;
+    top: 10%;
+}
+.contactimage img{
+    width: 100%;
+    height: 100%;
+}
+.scrolldown{
+    font-family: Semibold;
+    font-size: 1.0416666666666667vw;
+    text-decoration: underline;
+}
+.contactform{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.contactforminner{
+    /* border: 1px solid red; */
+width: 94.5%;
+display: flex;
+justify-content: space-between;
+padding: 70px 0;
+}
+.contactforminner input{
+    padding: 20px 0;
+    width: 32.747395833333336vw;
+  border-bottom:1px solid #000000;
+border-top: none;
+border-left: none;
+border-right: none;
+    background: transparent;
+    font-family: Regular;
+}
+#message{
+    padding-bottom: 70px;
+}
+.contactforminner input:focus{
+    outline: none;
+  
+  }
+
+input::placeholder{
+        font-family: Regular;
+        font-size: 16px;
+}
+.sendfiles{
+    margin-top: 40px;
+    width: 14.6484375vw;
+    height:2.9296875vw;
+    border: 1px solid #1e1e1e;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: Semibold;
+    font-size: 1.1067708333333333vw;
+}
+
+.freshper{
+    font-family: Semibold;
+    font-size: 3.125vw;
+    width: 50%;
+}
+.mehfcv{
+    width: 70%;
+    font-family: MMedium;
+    font-size: 1.5625vw;
+    margin-top: 40px;
+}
+
+
+@media (max-width:700px) {
+    .contactforminner{
+    padding: 40px 0;
+    }
+    .freshper{
+        font-size: 28px;
+        width: 100%;
+    }
+    .mehfcv{
+        width: 100%;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .sendfiles{
+    font-size: 15.49px;
+
+        width: 204px;
+        height:38.99px;
+    }
+    
+    .contactforminner input{
+        width: 100%;
+    }
+    .contactforminner{
+    display: inline;
+    }
+    .scrolldown{
+        font-size: 16px;
+    }
+    .contact{
+        height: 70svh;
+    }
+    .contact12{
+width: 100%;
+    padding-top: 60px;
+font-size: 20px ;
+line-height:20px;
+/* font-family: Regular; */
+}
+.contact13{
+    margin-top: 15px;
+    font-size: 20px;
+    line-height:20px;
+}
+.contact14{
+    /* margin-top: -1px; */
+    font-size: 28px;
+}
+.contactimage{
+    width: 100%;
+    /* height: 72vh; */
+      position: absolute;
+      top: 35%;
+  }
+}

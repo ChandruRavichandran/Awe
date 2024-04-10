@@ -1,0 +1,257 @@
+
+.MainAih{
+    border-radius: 30px 30px 0px 0px; 
+    height: auto;
+    background-color: #ffff;
+    /* margin: 10px; */
+    height:  auto;
+}
+.aokok{
+    color: white;
+    font-size: 48px;
+    font-family:Semibold ;
+}
+.maininneraih{
+    width: 100%;
+    height:  90svh;  
+    display: flex;
+    justify-content: center;
+}
+.innerconthu{
+    width: 100%;
+    
+display: flex;
+justify-content: center;
+margin-top: 150px;
+}
+.jiokok{
+    width: 94%;
+/* border: 1px solid red; */
+}
+.jiokok div{
+    width: 58%;
+    font-family:Regular ;
+    font-size:  2.0833333333333335vw;
+    line-height: 2.0833333333333335vw ;
+    /* letter-spacing: -0.5%; */
+}
+
+#seninnee{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 5px 0;
+    /* padding-top: 50px; */
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    background-color: #1E1E1E;
+    /* margin-bottom: 50px; */
+
+
+}
+.dojhvgbui{
+    border-radius: 30px;
+    margin-top: -15px;
+    /* border: 1px solid red; */
+}
+.uytfr{
+    padding: 35px;
+}
+.kok{
+    font-family: Semibold;
+    font-size: 3.125vw;
+    color: #ffff;
+    letter-spacing: -0.5%;
+}
+.innerphoto{
+    width: 4.115234375vw;
+    height:  4.115234375vw;
+    background-color: #D9D9D9;
+}
+#jioko{
+    width: 94%;
+/* border: 1px solid red; */
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+padding: 55px 50px;
+}
+.kokokok{
+font-family: MMedium;
+font-size: 1.755859375vw ;
+line-height: 1.7578125vw;
+margin-top: 15px;
+}
+.kokokoktwo{
+font-family: Regular;
+font-size: 1.09765625vw ;
+line-height: 1.2044270833333333vw;
+margin-top: 15px;
+
+}
+.inneerhuh{
+    width: 83%;
+    /* height: 70%; */
+    color: #ffff;
+    /* border: 1px solid red; */
+}
+.cartaih{
+    width:30.013020833333332vw;
+    height: 17.7734375vw;
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 50px; */
+    background-color: #282828;
+}
+.inneehuhu{
+    /* width: 100%; */
+    /* height: 100vh; */
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 50px;
+}
+.seconguh{
+    margin-top: 30px;
+}
+.innerjio{
+    width: 94%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.aihbook{
+   display: flex;
+   justify-content: flex-end;
+}
+.aihhead{
+    margin-top: 120px;
+width: 100%;
+}
+.aihhead img{
+    width: 100%;
+}
+.aihsub{
+    font-size: 1.8229166666666667vw;
+    font-family:MMedium ;
+    margin-top:20px;
+}
+
+.bookcallone{
+    width: 248px;
+    height: 43px;
+    border-radius: 25px;
+    font-size: 1.1067708333333333vw;
+    font-family:Semibold ;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #ffff;
+    background-color: #0A66C2;
+}
+.bookcallone span{
+    margin-top: 5px;
+}
+.mobile{
+    display: none;
+}
+@media (max-width : 700px) {
+    #seninnee{
+        margin-top: 60px;
+    }
+    .seconguh{
+        margin-top: 20px;
+    }
+ 
+    .maininneraih{
+        height: 100vh;
+
+    }
+    .innerconthu{
+        width: 100%;
+        
+    display: flex;
+    justify-content: center;
+    margin-top: 45%;
+    }
+    .jiokok div{
+    width: 100%;
+        font-size:  20px;
+        line-height: 20px ;
+        /* letter-spacing: -0.5%; */
+    }
+    .aihhead{
+        margin-top: 190px;
+    width: 100%;
+    }
+    .aihbook{
+        margin-top: 10%;
+        display: flex;
+        justify-content: flex-start;
+     }
+    .bookcallone{
+        width: 210px;
+        height: 35px;
+  font-size: 14.4px;
+    }
+    .bookcallone span{
+        margin-top: 0;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .maininneraih{
+        height: 63svh; 
+        /* border: 1px solid red;  */
+    }
+    .inneehuhu{
+        width: 100%;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 20px;
+    }
+    .cartaih{
+        width:90vw;
+        height: 200px;
+    }
+    #jioko{
+    padding: 55px 10px;
+    }
+    .kokokok{
+   
+        font-size:19.6px ;
+line-height: 19.1px;
+        }
+        .kokokoktwo{
+        font-size: 11.91px ;
+        line-height: 13.1px;
+ 
+        }
+        .innerphoto{
+            width: 44.67px;
+            height:  44.67px;
+        }
+        .aokok{
+            font-size: 24px;
+        }
+        .aihsub{
+            width: 90%;
+            font-size: 20px;
+            margin-top:20px;
+        }
+}
